@@ -2,10 +2,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# データの作成
-x = np.arange(0, 6, 0.1) # 0から6まで0.1刻みで生成
+# 建立資料
+x = np.arange(0, 6, 0.1) # 從0到6，以0.1為單位產生資料
 y = np.sin(x)
 
-# グラフの描画
+# 繪製圖表
 plt.plot(x, y)
 plt.show()
